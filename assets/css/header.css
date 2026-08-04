@@ -1,19 +1,15 @@
-header{
-    padding: 40px 200px 0px 200px ;   
-    max-width: 100%;
-    margin: 0 auto;
-}
 .top-row{
     width: 390px;
     height: 74px;
     flex-grow: 1;
     display: flex;
-
+    padding: 40px 200px 0px 200px ;   
+    max-width: 100%;
 }
 #logo{
     width: 273px;
     height: 74px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
     font-weight: 400px;
     font-style: Regular;
     font-size: 28px;

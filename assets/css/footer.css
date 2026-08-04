@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 footer{
     padding: 40px 200px 0px 200px ;   
     max-width: 100%;
 }
 .endinfo{
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-weight: 400;
     font-style: normal;
     font-size: 20px;

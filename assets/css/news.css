@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main{ 
+    padding: 40px 200px 0px 200px ;  
+}
+.location {
+    color: #000000;
+    text-decoration: none;
+
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#text-of-news{
+    color: #BBBBBB;
+}
+
+.home{
+    cursor: pointer;
+}
+#home-head:hover {
+    color: #841844;
+}
+
+#news-name{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 64px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin: 0; 
+}
+
+.newsDate{
+    margin-top: 50px;
+    display: inline-flex;
+    width: 118px;
+    height: 34px;
+    align-items: center;      
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #ECF2F5;
+    text-align: center; 
+
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #6C6E7B;
+}
+
+.news{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;  
+    align-items: start; 
+}
+
+.news-img {
+    width: 100%;
+    height: auto;
+    min-width: 200px;
+    max-width: 740px;
+    max-height: 570px;
+    object-fit: scale-down;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #841844;
+}
+.content{
+    margin-top: 20px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+
+#button-returnToHome{
+    margin-top: 20px;
+    justify-content: flex-start;
+    width: 213px;
+    height: 54px;
+    border-radius: 50px;
+    border: 2px solid #841844;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+#button-returnToHome:hover {
+    background-color: #841844;
+    color: #FFFFFF;
+}
