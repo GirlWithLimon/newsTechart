@@ -46,6 +46,6 @@
     <script>
         var page = <?php echo  $newsController->getPageNumber(); ?>;
     </script>
-    <script src="main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>

@@ -1,12 +1,10 @@
 <?php
    include_once "connect.php";
-   require_once 'IdbNews.php';
-    class DbNews implements IdbNews{
+    class DbNews{
         private $pdo;
         public function __construct($pdo) {
             $this->pdo = $pdo;
         }
-    #override    
         public function selectAll(){
             $sql = "SELECT * FROM news";
             $query = $this->pdo->prepare($sql);

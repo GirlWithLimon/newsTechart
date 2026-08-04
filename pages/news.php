@@ -35,6 +35,6 @@
         
     </main>
     <?php include 'include/footer.php'; ?>
-    <script src="news.js"></script>
+    <script src="../assets/js/news.js"></script>
 </body>
 </html>
